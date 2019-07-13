@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-repeat: no-repeat;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.438)), url(./img/back.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.showcase {
+    position: absolute;
+    left: 15%;
+    top: 32%;
+}
+
+.showcase-content {
+    color: rgba(240, 248, 255, 0.747);
+    font-weight: 100;
+    font-size: 1.4rem;
+}
+
+.btn:link, .btn:visited {
+    display: inline-block;
+    margin: 0.8rem;
+    border: solid #2ecc71;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    margin-left: 0%;
+    margin-top: 3%;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-full:link, .btn-full:visited {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.btn-empty:link, .btn-empty:visited {
+    color: #2ecc71;
+}
+
+.btn:hover, .btn:active {
+    transform: scale(1.1);
+}
+
+.btn-full:hover, .btn-full:active {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.btn-empty:hover, .btn-empty:active {
+    color: white;
+    border-color: #27ae60;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar {
+    margin: 1rem;
+}
+
+.bar a {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.a {
+    margin: 0.4rem;
+    border-bottom: solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.a:hover {
+    padding-bottom: 0.7rem;
+    border-bottom: solid #2ecc71;
+}
+
+h2 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+h2:after {
+    background-color: #2ecc71;
+    display: block;
+    content: "";
+    width: 8rem;
+    height: 0.1rem;
+    margin-left: 45%;
+    margin-top: 2rem;
+}
+
+section {
+    padding-top: 2rem;
+    margin: 0 7%;
+}
+
+.features-info {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 140%;
+    width: 70%;
+    line-height: 140%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.features-parent {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.features-article {
+    padding: 2%;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem;
+}
+
+.icon {
+    color: #2ecc71;
+    font-size: 230%;
+    text-align: center;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+
+.feature-article {
+    margin: 2rem;
+    text-align: justify;
+}
+
+.steps-parent {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.steps-iphone {
+    padding-left: 20%;
+    margin-top: 3%;
+}
+
+.steps-img{
+    width: 50%;
+}
+
+.steps-list div{
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+    font-size: 2.3rem;
+    margin-right: 5%;
+    text-align: center;
+    padding-top: 4px;
+    height:55px;
+    width:55px;
+    border-radius: 50%;
+    float: left;
+}
+
+.steps-how-to{
+    margin-top: 8rem;
+    font-size: 120%;
+}
+
+.steps-list p{
+    padding-bottom: 12%;
+}
+
+.app-img{
+    height:4rem;
+    margin-right:2rem;
+    margin-top:1rem;
+}
+
+
+
+
