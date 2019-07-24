@@ -16,7 +16,7 @@ a {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.438)), url(./img/back.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.438)), url(../img/back.jpg);
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
@@ -30,8 +30,11 @@ header {
 
 .showcase-content {
     color: rgba(240, 248, 255, 0.747);
-    font-weight: 100;
-    font-size: 1.4rem;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3.25rem;
 }
 
 .btn:link, .btn:visited {
@@ -75,12 +78,12 @@ header {
 }
 
 .bar {
-    margin: 1rem;
+    margin: 0.7rem;
 }
 
 .bar a {
     color: white;
-    font-size: 1.3rem;
+    font-size: 100%;
 }
 
 .a {
@@ -98,6 +101,8 @@ h2 {
     margin-top: 3%;
     text-align: center;
     font-size: 2.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 h2:after {
@@ -137,7 +142,9 @@ section {
 
 h3 {
     font-size: 1.3rem;
-    margin-bottom: 0.6rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 3%;
 }
 
 .icon {
@@ -163,38 +170,259 @@ h3 {
     margin-top: 3%;
 }
 
-.steps-img{
+.steps-img {
     width: 50%;
 }
 
-.steps-list div{
+.steps-list div {
     color: #2ecc71;
     border: 1px solid #2ecc71;
     font-size: 2.3rem;
     margin-right: 5%;
     text-align: center;
     padding-top: 4px;
-    height:55px;
-    width:55px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
     float: left;
 }
 
-.steps-how-to{
+.steps-how-to {
     margin-top: 8rem;
     font-size: 120%;
 }
 
-.steps-list p{
+.steps-list p {
     padding-bottom: 12%;
 }
 
-.app-img{
-    height:4rem;
-    margin-right:2rem;
-    margin-top:1rem;
+.app-img {
+    height: 4rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
 }
 
+/* .cities{
+    margin-top: 4rem;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgba(0, 0, 0, 0.199)
+} */
 
+.city h2 {
+    margin-bottom: 3rem;
+}
 
+.cities-parent {
+    display: flex;
+    margin-top: 1rem;
+}
 
+.cities-child {
+    margin: 2rem;
+}
+
+.cities-main img {
+    width: 100%;
+}
+
+.cities-main h3 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.x {
+    color: #2ecc71;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.cities-link {
+    margin: 0.7rem;
+}
+
+.cities-link a {
+    color: #2ecc71;
+}
+
+.customer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.7), rgba(0, 0, 0)), url(../img/back-customers.jpg);
+    margin-left: 0;
+    margin-right: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.customer-info {
+    color: rgba(240, 248, 255, 0.747);
+    margin-bottom: 4rem;
+}
+
+.customer-parent {
+    display: flex;
+    margin-top: 1rem;
+    font-style: italic;
+    margin-left: 3rem;
+}
+
+.customer-review {
+    color: rgba(240, 248, 255, 0.747);
+    margin: 1rem;
+    padding-right: 4%;
+    padding-bottom: 1.5rem;
+}
+
+blockquote:before {
+    content: "\201C";
+    color: white;
+    display: block;
+    font-size: 330%;
+}
+
+blockquote {
+    margin-bottom: 1rem;
+    font-size: 130%;
+    line-height: 145%;
+}
+
+.customer-review img {
+    border-radius: 50%;
+    padding-right: 1rem;
+    width: 14%;
+}
+
+.plans {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #f4f4f4;
+}
+
+.plans-main {
+    display: flex;
+    margin: 3rem;
+    margin-left: 4rem;
+}
+
+.planner {
+    background-color: white;
+    border-radius: 10%;
+    margin: 2rem;
+    width: 80%;
+    margin-bottom: 4rem;
+}
+
+.info-1 {
+    color: #2ecc71;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.info-1 span {
+    font-size: 336%;
+}
+
+.planner-1 {
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.planner-1 h3 {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-weight: 500;
+}
+
+.planner-1 p {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.planner-2 {
+    border-bottom: 2px solid #f4f4f4;
+    font-size: 123%;
+    line-height: 271%;
+    color: #2ecc71;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.planner-2 ul {
+    color: #555;
+    list-style: none;
+}
+
+.planner-2 i {
+    color: #2ecc71;
+    padding-right: 5%;
+}
+
+.planner-3 {
+    padding-left: 8rem;
+    padding-top: 0;
+}
+
+.btn-planner:link, .btn-planner:visited {
+    background-color: #2ecc71;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-planner:hover {
+    background-color: #27ae60;
+    border-color: #27ae60;
+    transform: scale(1.1);
+}
+
+.btn-planner-3:link, .btn-planner-3:visited {
+    background-color: #2ecc71;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-planner-3:hover {
+    background-color: #27ae60;
+    border-color: #27ae60;
+    transform: scale(1.1);
+}
+
+.input {
+    padding: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.input h2 {
+    margin-bottom: 3rem;
+}
+
+.entry {
+    display: flex;
+    margin: 1rem;
+}
+
+.entry-text {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+}
+
+.entry input[type=text] {
+    padding: 4px;
+    font-size: 1rem;
+    border: 1px solid #555;
+}
+
+.entry select {
+    padding: 4px;
+    border: 1px solid #555;
+    font-size: 1rem;
+    color: #555;
+}
+
+.entry input[type=checkbox] {
+    transform: scale(1.5);
+    width: 2rem;
+}
+
+.entry textarea{
+    padding: 4px;
+    border: 1px solid #555;
+}
